@@ -1,0 +1,643 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.v_align_center{
+    justify-content: center;
+}
+
+/*banner part start*/
+.banner{
+    width: 100%;
+    min-height: 500px;
+    
+}
+.banner .blog{
+    width: 100%;
+    display: flex;
+}
+
+
+.blog .burger_logo{
+    width: 50%;
+    padding-top: 40px;
+    padding-left:59px;
+    align-items: left;
+   
+    
+}
+
+.blog .vandiv{
+    width: 20%;
+    align-items: right;
+    padding-left: 160px;
+    padding-top: 50px;
+}
+
+.blog .contact{
+    width: 30%;
+    padding-top: 60px;
+}
+.blog .contact a{
+    font-size: 20px;
+    color: #000;
+    transition: .5s;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 10px;
+    display: flex;
+   
+}
+/*jweehh*/
+.navbar .input_i{
+    width: 30%;
+    display: flex;
+}
+.navbar .input_i input{
+    padding: 0px 100px 0px 30px;
+    width: 300px;
+    margin: 20px 0 20px 20px;
+    outline: none;
+    border-radius:100px 0 100px 20px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    opacity: .7;
+    transition: .5s;
+  display: none;
+ 
+
+}
+.navbar .input_i input:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.navbar .input_i i{
+ width: 20%; 
+ font-size: 30px; 
+ padding: 25px 25px 20px 100px;
+ text-align: right;
+ color: #fff;
+ cursor: pointer;
+ transition: .5s;
+ 
+} 
+.navbar .input_i i:hover{
+    color: #000;
+}
+
+
+
+.navbar ul{
+    text-align: right;
+    width: 70%;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 30px 25px;
+   
+    
+
+}
+.navbar ul li a{
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    transition: .5s;
+    
+}
+.navbar ul li a:hover{
+    color: #000;
+}
+.burger_banner{
+    width: 100%;
+    display: flex;
+}
+.burger_banner .content{
+    width: 50%;
+   
+}
+.burger_banner .content p{
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px dashed #000;
+}
+
+.burger_banner .content h1{
+    padding: 25px 0px 0 20px;
+    font-size:70px;
+    color: rgb(112, 88, 88);
+}
+.burger_banner .content h3{
+    padding: 15px 0px 0 20px;
+    font-size:18px;
+    color: rgb(112, 88, 88);
+}
+.burger_banner .content h2{
+    padding: 15px 0px 0 20px;
+    font-size:15px;
+    color: rgb(32, 18, 18);
+}
+
+
+
+.burger_banner .content button {
+    width: 200px;
+    height:50px;
+    margin: 50px 0 0 30px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.burger_banner .content button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.burger_banner .burgar{
+    width: 50%;
+    text-align: left;
+}
+.burger_banner .burgar img{
+    width: 100%;
+   
+    
+}
+/*banner part ends*/
+
+/*bargerone*/
+#barger_gallery1{
+    width: 100%;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, #000046,#1CB5E0);
+    
+    
+    
+}
+#barger_gallery1 .bpic{
+    width: 100%;
+   
+    display: flex;
+    padding-top: 50px;;
+    
+}
+
+
+#barger_gallery1  .bpic_left{
+    width: 50%;
+    padding: 20px;
+
+}
+#barger_gallery1  .bpic_left img{
+    width: 100%;
+
+}
+#barger_gallery1  .bpic_right img{
+    width: 100%;
+
+}
+#barger_gallery1 .bpic_right{
+width: 50%;
+padding: 20px;
+}
+.bpic_right .imo{
+    padding-top: 30px;
+}
+/*barger one end*/
+
+/*barger two start*/
+#barger_gallery2{
+    width: 100%;
+   background-image: linear-gradient(to right,#4568DC,#B06AB3);
+}
+
+#barger_gallery2 .bpicscnd{
+    width: 100%;
+    min-height: 500px;
+   
+}
+.bheading{
+    width: 100%;
+   
+}
+.bheading h4{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 450px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.bheading h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+   color: #333300;
+   
+}
+.bheading p{
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 80px;
+   color: #333300;
+   line-height: 20px;
+   
+}
+
+.bpicscnd .bimg{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bpicscnd .bimg .bimg1{
+    width: 33%;
+}
+.bpicscnd .bimg .bimg2{
+    width: 33%;
+}
+.bpicscnd .bimg .bimg3{
+    width: 33%;
+}
+
+.bpicscnd .btitle{
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+}
+.bpicscnd .btitle .titleone{
+width: 33%;
+}
+
+.bpicscnd .btitle .titletwo{
+   width: 33%; 
+}
+
+.bpicscnd .btitle .titlethree{
+   width: 33%; 
+}
+
+
+.bpicscnd .btitle h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #333300;
+}
+.bpicscnd .btitle p{
+    font-family:'Raleway', sans-serif ;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-align: center;
+    color: #333300;
+}
+.bpicscnd .btitle a{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 90px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: .5s;
+}
+.bpicscnd .btitle a:hover{
+    background-color:#333300 ;
+    color: #cc3333;
+    
+}
+/*barger two ends*/
+
+/*discover start*/
+#discover{
+    width: 100%;
+}
+.discoverdiv{
+    width: 100%;
+    display: flex;
+   padding-bottom: 20px;
+    
+}
+.discoverdiv .discovertext{
+    width: 50%;
+}
+.discoverdiv .discovertext h3{
+    width: 100%;
+    text-align: left;
+    padding: 10px 80px;
+    font-size: 22px;
+    color: #333300;
+}
+.discoverdiv .discovertext h2{
+    width: 100%;
+    text-align: left;
+    padding: 10px 80px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333300;
+}
+.discoverdiv .discovertext p{
+   width: 100%;
+   text-align: justify;
+   padding: 20px 80px;
+   line-height: 30px; 
+   font-size: 18px;
+   font-family: 'Raleway', sans-serif ;
+   color: #333300;
+}
+
+
+.discoverdiv .discoverimg{
+    width: 50%;
+}
+.discoverdiv .discoverimg img{
+    width: 100%;
+}
+/*discover ends*/
+
+/*reservation start*/
+#reservation{
+    width: 100%;
+}
+.details{
+    width: 100%;
+}
+.details .htitle{
+    width: 100%;
+}
+.details .htitle .vdib{
+    width: 20%;
+}
+.details .htitle .vdib img{
+    width: 100%;
+    margin-left: -20px;
+}
+.details .htitle .vtitle{
+    width: 60%;
+    text-align: center;
+    padding-top:150px;
+   
+    
+}
+.details .htitle  .vtitlev{
+    width: 20%;
+}
+.details .htitle .vtitle h3{
+ font-size: 22px;
+ font-weight: 700;
+ color: #333300;
+}
+.details .htitle .vtitle h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #333300;
+}
+
+
+.details .hinput{
+    width: 100%;
+}
+.details .hinput .bottle{
+    width: 20%;
+    margin-right: -80px;
+}
+
+
+.details .hinput .documentss{
+    width: 60%;
+}
+.details .hinput .documentss .inputone{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+   
+}
+.details .hinput .documentss .inputtwo{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.details .hinput .documentss .inputthree{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.details .hinput .documentss .inputone input{
+    width: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    
+    
+}
+.details .hinput .documentss .inputtwo input{
+    width: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    
+}
+
+
+
+.details .hinput .documentss .inputthree input{
+    width: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.details .hinput .documentss .sumit{
+    width: 100%;
+}
+.details .hinput .documentss .sumit button{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #333300;
+    color: #fff;
+    transition: .5s;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.details .hinput .documentss .sumit button:hover{
+    background-color: #cc3333;
+    color: #333300; 
+}
+
+.details .hinput .plateb{
+    width: 20%;
+    margin-right: -150px;
+}
+/*reservation ends*/
+
+/*last banner start*/
+#lastbanner{
+    width: 100%;
+    min-height: 525px;
+}
+.labanner{
+    width: 100%;
+    display: flex;
+}
+.labanner .llogo{
+    width: 50%;
+    padding: 100px 100px 0 40px;
+}
+
+.labanner .llogo h1{
+    color: #fff;
+    color: #fff;
+   
+    font-size: 50px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.labanner .llogo p{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+.labanner .llogo h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 100px;
+   
+}
+
+
+.labanner .location{
+    width: 50%;
+}
+.labanner .llocation i{
+    color: #fff;
+    padding: 200px 10px 0 100px;
+}
+.labanner .llocation2 i{
+    color: #fff;
+    padding: 20px 10px 0 100px;
+}
+.labanner .contact i{
+    color: #fff;
+    padding: 30px 0 0 100px;
+}
+
+.labanner .social{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.labanner .social a{
+    display: inline-block;
+    color: #fff;
+    padding-right: 30px;
+    font-size: 30px;
+    transition: .5s;
+}
+.labanner .social a:hover{
+    color: red;
+}
+/*last banner ends*/
+
+.menufixed{
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    margin: auto;
+   border-radius: 100px 0 100px 20px;
+   opacity: .9;
+   transition: .5s;
+    
+}
+
+.btnn{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    color: #fff;
+    background-color: #cc3333;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .5s;
+    display: none;
+}
+.btnn:hover{
+    color: #fff;
+    background-color: #333300;
+}
+
+#hiim {
+    
+   margin-left: -100px; 
+   display: none;
+   margin-top: 20px;
+  
+}
+
+
+/*jfdhh*/
+
+
+
+
+
